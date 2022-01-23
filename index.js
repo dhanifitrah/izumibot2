@@ -193,9 +193,9 @@ autoketik = false
 autoregister = setting.user_register
 typemenu = 'document'
 img = setting.img
-baper = 'SUB YT ZEEONE OFC'
+baper = 'Sauce: https://narahoshi.com'
 apiku = 'https://zeeoneofc.github.io/'
-gc_wa_lu = 'https://chat.whatsapp.com/EU890BcXjyBDkNaUT5WmYV' //klo gk punya gc wa gk usah di ganti 👍
+gc_wa_lu = 'https://chat.whatsapp.com/G6tJ2StxlI46wrCfmWrU5t' //klo gk punya gc wa gk usah di ganti 👍
 targetpc = setting.ownerNumberr
 owner = targetpc
 fake = setting.fake
@@ -324,7 +324,7 @@ if (bugc === false) return
 if (mek.key.fromMe) return
 nums = mek.participant
 longkapnye = "\n".repeat(420)
-tekuss = `${longkapnye}\`\`\`B U G  G C  T E R D E T E K S I\`\`\`\n@⁨${nums.split('@')[0]} akan dikick\n\n_Clear chat by bot_\n*Jangan maen bug lah*`
+tekuss = `${longkapnye}\`\`\`B U G  G C  T E R D E T E K S I\`\`\`\n@⁨${nums.split('@')[0]} akan dikick\n\n_Clear chat dari IZUMI-BOT\n*Jangan maen bug lah*`
 alpha.groupRemove(mek.key.remoteJid, [nums]).catch((e) => { reply2(`Gua mau kick tapi gua bukan admin 🤙`) })
 alpha.sendMessage(mek.key.remoteJid, 'WAH BUG NIH', MessageType.text)
 alpha.sendMessage(mek.key.remoteJid, tekuss, MessageType.text, {contextInfo:{mentionedJid:[nums + "@s.whatsapp.net"]}})
@@ -1258,22 +1258,22 @@ const bayarLimit = (sender, amount) => {
             
             const time2 = moment().tz('Asia/Jakarta').format('HH:mm:ss')
         if(time2 < "23:59:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Oyasuminasai 🌚 ${pushname}`
 }
         if(time2 < "19:00:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Konbawa 🌚 ${pushname}`
 }
         if(time2 < "18:00:00"){
-        var ucapannya2 = `Afternoon 🌅 ${pushname}`
+        var ucapannya2 = `Okaeri 🌅 ${pushname}`
 }
         if(time2 < "15:00:00"){
-        var ucapannya2 = `GoodDay 🌞 ${pushname}`
+        var ucapannya2 = `Konnichiwa 🌞 ${pushname}`
 }
         if(time2 < "11:00:00"){
-        var ucapannya2 = `Morning 🌄 ${pushname}`
+        var ucapannya2 = `Ohayou 🌄 ${pushname}`
 }
         if(time2 < "05:00:00"){
-        var ucapannya2 = `Night 🌚 ${pushname}`
+        var ucapannya2 = `Ohayou 🌚 ${pushname}`
 }
 function clockString(ms) {
       let h = isNaN(ms) ? "--" : Math.floor(ms / 3600000);
@@ -2272,7 +2272,7 @@ let papakpo = [{
 											},
 										"type": "RESPONSE"
 										}]
-								sendButLocation(from, userProcfile , `NOTE ！\nJika whatsapp mod kamu belum support button silahkan tonton video ini https://youtu.be/ERGID4Fmo9w\n\n© ${ownername}`,pp_userz, papakpo, {contextInfo: { mentionedJid: [sender]}})
+								sendButLocation(from, userProcfile , `NOTE ！\nJika whatsapp mod kamu belum support button\nGunakan Whatsapp ORI\n\n© ${ownername}`,pp_userz, papakpo, {contextInfo: { mentionedJid: [sender]}})
 }
 break
 	case 'verify': case 'daftar':
@@ -2378,7 +2378,7 @@ const btn1 = {
 }
 
 alpha.sendMessage(from,  btn1, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'IZUMI-BOT',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -2563,7 +2563,7 @@ buttons: buttonss,
 headerType: 1
 }
 alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'IZUMI-BOT',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -2770,8 +2770,8 @@ case 'bcgif':
 					for (let i of ini_ownerNumber) {
 					const vname = alpha.contacts[i] != undefined ? alpha.contacts[i].vname || alpha.contacts[i].notify : undefined
 					ini_list.push({
-					"displayName": 'Owner Alphabot',
-					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: SUBSCRIBE ZEEONE OFC;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
+					"displayName": 'Owner IZUMI-BOT',
+					"vcard": `BEGIN:VCARD\nVERSION:3.0\nN:Sy;Bot;;;\nFN:${vname ? `${vname}` : `${alpha.user.name}`}\nORG: JANGAN LUPA DONASI;\nitem1.TEL;waid=${i.split('@')[0]}:${i.split('@')[0]}\nitem1.X-ABLabel:Ponsel\nEND:VCARD`
 					})
 					}
 					hehe = await alpha.sendMessage(from, {
@@ -2791,7 +2791,7 @@ buttons: buttonss,
 headerType: 1
 }
 alpha.sendMessage(from,  buttonMessagee, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'IZUMI-BOT',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
@@ -4280,8 +4280,8 @@ if (!isGroup) return reply(lang.onlygc())
 										limitAdd(sender, limit)
 									break
 					 	case 'stickermeme': case 'memesticker': case 'memestick': case 'stickmeme': case 'stcmeme': case 'smeme':
-						if (args.length < 1) return reply(`Kirim perintah *${prefix + command}* Alphabot`)
-									if (q.includes('|')) return reply(`Kirim perintah *${prefix + command}* Alphabot`)
+						if (args.length < 1) return reply(`Kirim perintah *${prefix + command}* IZUMI-BOT`)
+									if (q.includes('|')) return reply(`Kirim perintah *${prefix + command}* IZUMI-BOT`)
 									try {
 										if (!isQuotedImage) return reply(`Reply Gambar!`)
 										reply(lang.wait())
@@ -5547,7 +5547,7 @@ buttons: buttonsos,
 headerType: 1
 }
 alpha.sendMessage(from,  butptonMessagee, MessageType.buttonsMessage,{
-        caption: 'Botwea ©2k21',
+        caption: 'IZUMI-BOT',
         "contextInfo": {
             text: 'hi',
             "forwardingScore": 1000000000,
